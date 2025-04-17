@@ -9,13 +9,14 @@ A formal detailed abstract associated with this repository will be added when th
 ## Instructions for Reproducing Automated EPE Detection
 1. Create a conda/virtual environment with python 3.9 or newer. 
 2. Install [PyTorch](https://pytorch.org/get-started/locally/). Please us the latest version with support for your hardware. This model was trained and developed using linux, pip3, python, and CUDA 11.8 CUDA 11.8.
-2. Follow the instructions for installation of [nnUNet](https://github.com/MIC-DKFZ/nnUNet/tree/master). 
+3. Follow the instructions for installation of [nnUNet](https://github.com/MIC-DKFZ/nnUNet/tree/master). 
     - We reccommend as an integrative framework (git clone, cd nnUNet, pip install -e).
-3. Create directory with your data for inference in the require format for nnUNet: images should be named such as img_001_0000.nii.gz starting at 001 and counting up to img_999_0000.nii.gz.
-4. Resample all .nii.gz images to 1mm^3 per voxel.
-4. Clone this repository, and move bash script and nnUNetTrainer__nnUNetPlans__3d_fullres into your nnUNet directory.
-5. Run the bash script and be sure to set your input path to your folder containing images, an output path to an empty directory, and export the variable 'nnUNet_results' to the 'nnUNetTrainer__nnUNetPlans__3d_fullres' directory.
-6. For post processing, we filtered all connected components smaller than 138mm^3 (or 138 voxels), and used a majority vote for mixed lesions.
+4. Create directory with your data for inference in the require format for nnUNet: images should be named such as img_001_0000.nii.gz starting at 001 and counting up to img_999_0000.nii.gz.
+5. Resample all .nii.gz images to 1mm^3 per voxel.
+6. Due to the large size of the model weights, we used [Git LFS](https://git-lfs.com/). You will need to install Git LFS according to the website innstructions in order to use this repository.
+7. Clone this repository, and move bash script and nnUNetTrainer__nnUNetPlans__3d_fullres into your nnUNet directory.
+8. Run the bash script and be sure to set your input path to your folder containing images, an output path to an empty directory, and export the variable 'nnUNet_results' to the 'nnUNetTrainer__nnUNetPlans__3d_fullres' directory.
+9. For post processing, we filtered all connected components smaller than 138mm^3 (or 138 voxels), and used a majority vote for mixed lesions.
 
 Please contact benjamin.simon@nih.gov with any inquiries regarding running this code.
 
