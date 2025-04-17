@@ -8,7 +8,7 @@ A formal detailed abstract associated with this repository will be added when th
 
 ## Instructions for Reproducing Automated EPE Detection
 1. Create a conda/virtual environment with python 3.9 or newer. 
-2. Install [PyTorch](https://pytorch.org/get-started/locally/). Please us the latest version with support for your hardware. This model was trained and developed using linux, pip3, python, and CUDA 11.8 CUDA 11.8.
+2. Install [PyTorch](https://pytorch.org/get-started/locally/). Please us the latest version with support for your hardware. This model was trained and developed using linux, pip3, python, and CUDA 11.8.
 3. Follow the instructions for installation of [nnUNet](https://github.com/MIC-DKFZ/nnUNet/tree/master). 
     - We reccommend as an integrative framework (git clone, cd nnUNet, pip install -e).
 4. Create directory with your data for inference in the require format for nnUNet: images should be named such as img_001_0000.nii.gz starting at 001 and counting up to img_999_0000.nii.gz.
