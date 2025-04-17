@@ -1,5 +1,5 @@
 # A Deep Learning Model for Comprehensive Automated Bone Lesion Detection and Classification on Staging Computed Tomography Scans
-[Benjamin D. Simon](https://www.linkedin.com/in/benjamin-dabora-simon/), Stephanie A. Harmon, Dong Yang, Mason J. Belue, Ziyue Xu, Jesse Tetreault, Peter A. Pinto, Bradford J. Wood, Deborah E. Citrin, Ravi A. Madan, Daguang Xu, Steven A. Rosenberg MD, Peter L. Choyke, James L. Gulley MD, Baris Turkbey
+[Benjamin D. Simon](https://www.linkedin.com/in/benjamin-dabora-simon/), Stephanie A. Harmon, Dong Yang, Mason J. Belue, Ziyue Xu, Jesse Tetreault, Peter A. Pinto, Bradford J. Wood, Deborah E. Citrin, Ravi A. Madan, Daguang Xu, Steven A. Rosenberg, Peter L. Choyke, James L. Gulley, Baris Turkbey
 
 The manuscript associated with this repository is currently under review and will be linked at a later date.
 
