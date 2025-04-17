@@ -15,7 +15,7 @@ A formal detailed abstract associated with this repository will be added when th
 5. Resample all .nii.gz images to 1mm^3 per voxel.
 6. Due to the large size of the model weights, we used [Git LFS](https://git-lfs.com/). You will need to install Git LFS according to the website innstructions in order to use this repository.
 7. Clone this repository, and move bash script and nnUNetTrainer__nnUNetPlans__3d_fullres into your nnUNet directory.
-8. Run the bash script and be sure to set your input path to your folder containing images, an output path to an empty directory, and export the variable 'nnUNet_results' to the 'nnUNetTrainer__nnUNetPlans__3d_fullres' directory.
+8. Run the nnunet_inference.sh bash script and be sure to set your input path to your folder containing images, an output path to an empty directory, and export the variable 'nnUNet_results' to the 'nnUNetTrainer__nnUNetPlans__3d_fullres' directory.
 9. For post processing, we filtered all connected components smaller than 138mm^3 (or 138 voxels), and used a majority vote for mixed lesions.
 
 Please contact benjamin.simon@nih.gov with any inquiries regarding running this code.
