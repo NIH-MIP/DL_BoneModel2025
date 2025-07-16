@@ -1,5 +1,7 @@
-# [A Deep Learning Model for Comprehensive Automated Bone Lesion Detection and Classification on Staging Computed Tomography Scans] (https://www.sciencedirect.com/science/article/pii/S1076633225005707?via%3Dihub)
+# A Deep Learning Model for Comprehensive Automated Bone Lesion Detection and Classification on Staging Computed Tomography Scans
 [Benjamin D. Simon](https://www.linkedin.com/in/benjamin-dabora-simon/), Stephanie A. Harmon, Dong Yang, Mason J. Belue, Ziyue Xu, Jesse Tetreault, Peter A. Pinto, Bradford J. Wood, Deborah E. Citrin, Ravi A. Madan, Daguang Xu, Steven A. Rosenberg, Peter L. Choyke, James L. Gulley, Baris Turkbey
+
+[Full Text Link](https://www.sciencedirect.com/science/article/pii/S1076633225005707?via%3Dihub)
 
 ## Abstract
 # Rationale and Objectives
