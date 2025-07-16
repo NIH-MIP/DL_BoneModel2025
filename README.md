@@ -13,7 +13,7 @@ In the independent test set, 70% of ground truth lesions were detected (67% of m
 ### Conclusion
 Our lesion detection and classification AI model performs accurately and has the potential to correct physician errors. Further studies should investigate if the model can impact physician review in terms of detection rate, classification accuracy, and review time.
 ### Key Words
-OsteolyticOsteoblasticBone metastasisComputed tomographyArtificial intelligenceDeep learning
+Osteolytic, Osteoblastic, Bone metastasis, Computed tomography, Artificial intelligence, Deep learning
 
 ## Instructions for Reproducing Automated EPE Detection
 1. Create a conda/virtual environment with python 3.9 or newer. 
