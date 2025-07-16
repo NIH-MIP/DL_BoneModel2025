@@ -4,15 +4,15 @@
 [Full Text Link](https://www.sciencedirect.com/science/article/pii/S1076633225005707?via%3Dihub)
 
 ## Abstract
-# Rationale and Objectives
+### Rationale and Objectives
 A common site of metastases for a variety of cancers is the bone, which is challenging and time consuming to review and important for cancer staging. Here, we developed a deep learning approach for detection and classification of bone lesions on staging CTs.
-# Materials and Methods
+### Materials and Methods
 This study developed an nnUNet model using 402 patients’ CTs, including prostate cancer patients with benign or malignant osteoblastic (blastic) bone lesions, and patients with benign or malignant osteolytic (lytic) bone lesions from various primary cancers. An expert radiologist contoured ground truth lesions, and the model was evaluated for detection on a lesion level. For classification performance, accuracy, sensitivity, specificity, and other metrics were calculated. The held-out test set consisted of 69 patients (32 with bone metastases). The AUC of AI-predicted burden of disease was calculated on a patient level.
-# Results
+### Results
 In the independent test set, 70% of ground truth lesions were detected (67% of malignant lesions and 72% of benign lesions). The model achieved accuracy of 85% in classifying lesions as malignant or benign (91% sensitivity and 81% specificity). Although AI identified false positives in several benign patients, the patient-level AUC was 0.82 using predicted disease burden proportion.
-# Conclusion
+### Conclusion
 Our lesion detection and classification AI model performs accurately and has the potential to correct physician errors. Further studies should investigate if the model can impact physician review in terms of detection rate, classification accuracy, and review time.
-# Key Words
+### Key Words
 OsteolyticOsteoblasticBone metastasisComputed tomographyArtificial intelligenceDeep learning
 
 ## Instructions for Reproducing Automated EPE Detection
