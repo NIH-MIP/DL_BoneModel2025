@@ -1,10 +1,17 @@
-# A Deep Learning Model for Comprehensive Automated Bone Lesion Detection and Classification on Staging Computed Tomography Scans
+# [A Deep Learning Model for Comprehensive Automated Bone Lesion Detection and Classification on Staging Computed Tomography Scans] (https://www.sciencedirect.com/science/article/pii/S1076633225005707?via%3Dihub)
 [Benjamin D. Simon](https://www.linkedin.com/in/benjamin-dabora-simon/), Stephanie A. Harmon, Dong Yang, Mason J. Belue, Ziyue Xu, Jesse Tetreault, Peter A. Pinto, Bradford J. Wood, Deborah E. Citrin, Ravi A. Madan, Daguang Xu, Steven A. Rosenberg, Peter L. Choyke, James L. Gulley, Baris Turkbey
 
-The manuscript associated with this repository is currently under review and will be linked at a later date.
-
 ## Abstract
-A formal detailed abstract associated with this repository will be added when the publication is online.
+# Rationale and Objectives
+A common site of metastases for a variety of cancers is the bone, which is challenging and time consuming to review and important for cancer staging. Here, we developed a deep learning approach for detection and classification of bone lesions on staging CTs.
+# Materials and Methods
+This study developed an nnUNet model using 402 patients’ CTs, including prostate cancer patients with benign or malignant osteoblastic (blastic) bone lesions, and patients with benign or malignant osteolytic (lytic) bone lesions from various primary cancers. An expert radiologist contoured ground truth lesions, and the model was evaluated for detection on a lesion level. For classification performance, accuracy, sensitivity, specificity, and other metrics were calculated. The held-out test set consisted of 69 patients (32 with bone metastases). The AUC of AI-predicted burden of disease was calculated on a patient level.
+# Results
+In the independent test set, 70% of ground truth lesions were detected (67% of malignant lesions and 72% of benign lesions). The model achieved accuracy of 85% in classifying lesions as malignant or benign (91% sensitivity and 81% specificity). Although AI identified false positives in several benign patients, the patient-level AUC was 0.82 using predicted disease burden proportion.
+# Conclusion
+Our lesion detection and classification AI model performs accurately and has the potential to correct physician errors. Further studies should investigate if the model can impact physician review in terms of detection rate, classification accuracy, and review time.
+# Key Words
+OsteolyticOsteoblasticBone metastasisComputed tomographyArtificial intelligenceDeep learning
 
 ## Instructions for Reproducing Automated EPE Detection
 1. Create a conda/virtual environment with python 3.9 or newer. 
